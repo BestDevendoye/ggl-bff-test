@@ -1,0 +1,8 @@
+{
+  "authServerUrl": "https://ssotest.interne.galerieslafayette.com/auth/realms/GL-ENTREPRISE/protocol/openid-connect/token",
+  "grantType": "password",
+  "clientId": "ggl-api",
+  "clientSecret": "e4d3b425-06e4-426e-a766-7c00441ebeef",
+  "username": "ggl-backoffice",
+  "password": "ggl-backoffice"
+}

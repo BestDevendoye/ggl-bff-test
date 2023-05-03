@@ -1,0 +1,12 @@
+{
+  "cartUid": #(cartUid),
+  "sellerBadgeNumber": "123456",
+  "supervisorBadgeNumber": "456780",
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "locale": "fr-FR",
+    "currency": "EUR"
+  }
+}

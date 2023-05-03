@@ -1,0 +1,9 @@
+{
+  "authServerUrl": "https://secure-rec.galerieslafayette.com/auth/realms/gl/protocol/openid-connect/token",
+  "grantType": "password",
+  "clientId": "ecom-api",
+  "clientSecret": "b1b5c794-4b6d-4fa2-9930-c128daf00e51",
+
+  "username": "bhenique@galerieslafayette.com",
+  "password": "Azerty1234"
+}

@@ -1,0 +1,12 @@
+{
+  "cartUid": "",
+  "customerUid": "405556320",
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "zone": "France",
+    "locale": "fr-FR",
+    "currency": "EUR"
+  }
+}

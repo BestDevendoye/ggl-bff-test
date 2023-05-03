@@ -1,0 +1,72 @@
+mutation ($article: CreatePurchasedArticleRequest!, $context: ContextInput!) {
+    createPurchasedArticle(createPurchasedArticleRequest: $article, context: $context) {
+        product {
+            id
+            title
+            name
+            description
+            supplier {
+                code
+                reference
+            }
+            brand {
+                code
+                label
+            }
+            universe {
+                code
+                label
+            }
+            subUniverse {
+                code
+                label
+            }
+            subUniverse {
+                code
+                label
+            }
+            natureGroup {
+                code
+                label
+            }
+            nature {
+                code
+                label
+            }
+            attributes {
+                code
+                name
+                valueCode
+                valueName
+            }
+            article {
+                id
+                ean13
+                name
+                season {
+                    code
+                    label
+                }
+                purchasedArticle {
+                    uga
+                    ugp
+                }
+
+                merchandise
+                mainVariantsAttributes {
+                    type
+                    code
+                    value
+                    variantLevel
+                }
+
+                attributes {
+                    code
+                    name
+                    valueCode
+                    valueName
+                }
+            }
+        }
+    }
+}

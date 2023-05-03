@@ -1,0 +1,27 @@
+{
+  "article": {
+    "title": "Un Titre",
+    "description": "Un titre aux proportions parfaites.",
+    "rmsFamilyCode": "2766",
+    "rmsSubFamilyCode": "1",
+    "offer": {
+      "current": {
+        "unitPrice": 40000,
+        "startDate": "2020-08-25T00:00:00+02:00"
+      }
+    },
+    "supplier": {
+      "code": "816819",
+      "reference": "REF11142"
+    },
+    "comment": "Commentaire",
+    "seasonCode": "519",
+    "unitOfMeasurement": "EA"
+  },
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "locale": "fr-FR"
+  }
+}

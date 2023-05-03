@@ -1,0 +1,126 @@
+query($filters: FiltersInput, $context: ContextInput!) {
+    searchProducts(filters: $filters, context: $context) {
+        products {
+            id
+            title
+            name
+            description
+            brand {
+                code
+                label
+            }
+            universe {
+                code
+                label
+            }
+            subUniverse {
+                code
+                label
+            }
+            natureGroup {
+                code
+                label
+            }
+            nature {
+                code
+                label
+            }
+            attributes {
+                code
+                name
+                valueCode
+                valueName
+            }
+            supplier {
+                code
+                reference
+            }
+            articles {
+                id
+                ean13
+                name
+                season {
+                    code
+                    label
+                }
+                merchandise
+                mainVariantsAttributes {
+                    type
+                    code
+                    value
+                    variantLevel
+                }
+                attributes {
+                    code
+                    name
+                    valueCode
+                    valueName
+                }
+                purchasedArticles {
+                    uga
+                    ugp
+                    purchasedGroup {
+                        code
+                        label
+                    }
+                    purchasedMarket {
+                        code
+                        label
+                    }
+                    purchasedSegment {
+                        code
+                        label
+                    }
+                    purchasedFamily {
+                        code
+                        label
+                    }
+                    purchasedSubFamily {
+                        code
+                        label
+                    }
+                    purchasedAttributes {
+                        code
+                        name
+                        valueCode
+                        valueName
+                    }
+                    offers {
+                        article {
+                            status
+                            discountable
+                        }
+                        tenant
+                        subtenant
+                        channel
+                        startDate
+                        stocks{
+                            location{
+                                code
+                                name
+                                type
+                            }
+                            quantity
+                        }
+                        article {
+                            uga
+                            purchasedNomenclatureFamily
+                        }
+                        price {
+                            unitPrice
+                            unitDiscount
+                            finalPrice
+                            currencyUid
+                            type
+                            vat{
+                                code
+                                rate
+                                externalPosCode
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "authServerUrl": "https://sso.interne.galerieslafayette.com/auth/realms/GL-ENTREPRISE/protocol/openid-connect/token",
+  "grantType": "password",
+  "clientId": "ggl-api",
+  "clientSecret": "9defd156-59d4-4320-9535-3d76efa0d891",
+  "username": "ggl-backoffice",
+  "password": "CCM4pve@GLsso!"
+}

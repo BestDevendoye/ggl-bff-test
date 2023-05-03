@@ -1,0 +1,9 @@
+mutation($cartUid: String!, $sellerBadgeNumber: String!, $context: ContextInput!) {
+    createOrder(cartUid: $cartUid, sellerBadgeNumber: $sellerBadgeNumber, context: $context) {
+        uid
+        totalPrice
+        customer {
+            uid
+        }
+    }
+}

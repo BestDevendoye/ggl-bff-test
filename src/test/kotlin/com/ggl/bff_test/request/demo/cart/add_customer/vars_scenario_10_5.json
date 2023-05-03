@@ -1,0 +1,12 @@
+{
+  "cartUid": #(cartUid),
+  "customerUid": "400072253",
+  "context": {
+    "tenant": "bhv",
+    "subtenant": "7510",
+    "channel": "pve",
+    "zone": "France",
+    "locale": "fr-FR",
+    "currency": "EUR"
+  }
+}

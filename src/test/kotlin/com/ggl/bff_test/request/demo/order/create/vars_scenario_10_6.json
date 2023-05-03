@@ -1,0 +1,11 @@
+{
+  "cartUid": #(cartUid),
+  "sellerBadgeNumber": "000000",
+  "context": {
+    "tenant": "bhv",
+    "subtenant": "7510",
+    "channel": "pve",
+    "locale": "fr-FR",
+    "currency": "EUR"
+  }
+}

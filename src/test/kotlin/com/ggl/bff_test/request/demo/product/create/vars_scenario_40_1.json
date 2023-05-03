@@ -1,0 +1,30 @@
+{
+  "article": {
+    "title": "art-demo2508-77",
+    "description": "test description yves",
+    "rmsFamilyCode": "382",
+    "rmsSubFamilyCode": "1",
+    "offer": {
+      "current": {
+        "unitPrice": 1000,
+        "startDate": "2020-08-25T00:00:00+02:00"
+      },
+      "buyingPrice": {
+        "unitPrice": 50,
+        "startDate": "2020-08-25T00:00:00+02:00"
+      }
+    },
+    "supplier": {
+      "code": "136479",
+      "reference": "REFPRD3"
+    },
+    "comment": "Test",
+    "seasonCode": "519"
+  },
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "locale": "fr-FR"
+  }
+}

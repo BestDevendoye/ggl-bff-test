@@ -1,0 +1,16 @@
+{
+  "cartUid": "",
+  "entry": {
+    "uga": "24864530",
+    "quantity": 1,
+    "sellerUid": "GM"
+  },
+  "context": {
+    "tenant": #(tenant),
+    "subtenant": #(subtenant),
+    "channel": "pve",
+    "zone": "France",
+    "locale": "fr-FR",
+    "currency": "EUR"
+  }
+}

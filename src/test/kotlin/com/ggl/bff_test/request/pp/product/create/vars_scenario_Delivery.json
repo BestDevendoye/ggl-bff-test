@@ -1,0 +1,30 @@
+{
+  "article": {
+    "title": "art-pp-ref-volee",
+    "description": "Test ref a la volee delivery",
+    "rmsFamilyCode": "2766",
+    "rmsSubFamilyCode": "1",
+    "offer": {
+	"current": {
+	    "unitPrice": 11000,
+	    "startDate": "2020-08-25T00:00:00+02:00"
+	},
+	"buyingPrice": {
+	    "unitPrice": 69,
+	    "startDate": "2020-08-25T00:00:00+02:00"
+	}
+    },
+    "supplier": {
+	"code": "821605",
+	"reference": "Pomax"
+    },
+    "comment": "Bonjour Madame",
+    "seasonCode": "519"
+  },
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "locale": "fr-FR"
+  }
+}

@@ -1,0 +1,230 @@
+mutation($cartUid: String, $customerUid: String!, $context: ContextInput!) {
+    addCustomerToCart(cartUid: $cartUid, customerUid: $customerUid, context: $context) {
+        uid
+        jsessionid
+        customerUid
+        shippingGroups {
+            uid
+            sellerUid
+            entries {
+                supplySource
+                uid
+                productContract
+                product {
+                    supplier {
+                        code
+                        reference
+                    }
+                    ugp
+                    uga
+                    brand {
+                        code
+                        label
+                    }
+                    family {
+                        code
+                        label
+                    }
+                    title
+                    description
+                }
+                productPrice {
+                    unitPrice
+                    unitDiscount
+                    finalPrice
+                    discountPercent
+                    overwrittenFinalPrice
+                    type
+                }
+                offerUid
+                sellerUid
+                quantity
+                availableQuantity
+                index
+                discounts {
+                    uid
+                    code
+                    accountingCode
+                    amount {
+                        appliedValue
+                        value
+                        type
+                    }
+                    message
+                    from
+                }
+                reservationDetails {
+                    quantity
+                    locationCode
+                }
+                totalDiscounts
+                totalPrice
+            }
+            discounts {
+                uid
+                code
+                accountingCode
+                amount {
+                    appliedValue
+                    value
+                    type
+                }
+                message
+                from
+            }
+            deliveryInfos {
+                carrierService {
+                    uid
+                    label
+                    mode
+                    shippingType {
+                        uid
+                        label
+                    }
+                }
+                shippingCost {
+                    amount
+                    overwrittenAmount
+                    canEdit
+                    discounts {
+                        uid
+                        code
+                        accountingCode
+                        amount {
+                            appliedValue
+                            value
+                            type
+                        }
+                        message
+                        from
+                    }
+                }
+                parcels {
+                    expeditionSite {
+                        uid
+                        label
+                        type
+                    }
+                    packageInfos {
+                        articleUga
+                        packingSite {
+                            uid
+                            label
+                            type
+                        }
+                        packingDate
+                        quantity
+                    }
+                    shippingTime {
+                        shippingDate
+                        deliveryDateMin
+                        deliveryDateMax
+                        overwrittenDeliveryDate
+                        canEdit
+                    }
+                }
+                uga
+            }
+            shippingAddressUid
+            billingAddressUid
+            deliveryZone {
+                zipCode
+                countryCode
+            }
+            totalEntries
+            deliveryCost
+            totalDiscounts
+            totalPrice
+        }
+        services {
+            entries {
+                uid
+                product {
+                    ugp
+                    uga
+                    brand {
+                        code
+                        label
+                    }
+                    family {
+                        code
+                        label
+                    }
+                    title
+                    description
+                    visualMap {
+                        key
+                        value
+                    }
+                    mainVariantsAttributes {
+                        key
+                        code
+                        value
+                    }
+                }
+                productPrice {
+                    unitPrice
+                    unitDiscount
+                    finalPrice
+                    discountPercent
+                    overwrittenFinalPrice
+                    type
+                }
+                offerUid
+                sellerUid
+                quantity
+                availableQuantity
+
+                index
+                discounts {
+                    uid
+                    code
+                    accountingCode
+                    amount {
+                        appliedValue
+                        value
+                        type
+                    }
+                    message
+                    from
+                }
+                reservationDetails {
+                    quantity
+                    locationCode
+                }
+                totalDiscounts
+                totalPrice
+            }
+            totalPrice
+        }
+        vouchers {
+            code
+        }
+        discounts {
+            uid
+            code
+            accountingCode
+            amount {
+                appliedValue
+                value
+                type
+            }
+            message
+            from
+        }
+        reservationUid
+        totalEntries
+        totalDeliveryCost
+        totalDiscounts
+        totalPrice
+        notices {
+            code
+            message
+            target {
+                uid
+                reference
+            }
+        }
+    }
+}
+

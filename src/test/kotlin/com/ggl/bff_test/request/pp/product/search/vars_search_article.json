@@ -1,0 +1,23 @@
+{
+  "filters": {
+    "query": {
+      "criterion": {
+        "operator": "IN",
+        "selector": "uga",
+        "values": [
+          "69353123"
+        ]
+      }
+    },
+    "pagination": {
+      "offset": 0,
+      "limit": 20
+    }
+  },
+  "context": {
+    "tenant": "gl",
+    "subtenant": "3050",
+    "channel": "pve",
+    "locale": "fr-FR"
+  }
+}
